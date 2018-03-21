@@ -37,6 +37,6 @@
       <Mode/>
     </Variable>
   </Environment>
-  <Config Name="Download Location" Target="/persistent" Default="" Mode="rw" Description="Container Path: /persistent (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Config Location" Target="/config" Default="" Mode="rw" Description="Container Path: /config (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Download Location" Target="/persistent" Default="/mnt/user/Youtube/" Mode="rw" Description="Container Path: /persistent (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config Location" Target="/config" Default="/mnt/user/appdata/youtube-dl-ssh/" Mode="rw" Description="Container Path: /config (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
