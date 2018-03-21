@@ -36,7 +36,19 @@
       <Name>INTERVAL</Name>
       <Mode/>
     </Variable>
+	<Variable>
+      <Value></Value>
+      <Name>USERNAME</Name>
+      <Mode/>
+    </Variable>
+	<Variable>
+      <Value></Value>
+      <Name>PASSWORD</Name>
+      <Mode/>
+    </Variable>
   </Environment>
   <Config Name="Download Location" Target="/persistent" Default="/mnt/user/Youtube/" Mode="rw" Description="Container Path: /persistent (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Config Location" Target="/config" Default="/mnt/user/appdata/youtube-dl-ssh/" Mode="rw" Description="Container Path: /config (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Username" Target="USERNAME" Default="" Mode="" Description="YouTube Username" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Interval" Target="INTERVAL" Default="" Mode="" Description="Youtube Password" Type="Variable" Display="always" Required="true" Mask="false"/>
 </Container>
