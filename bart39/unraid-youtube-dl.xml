@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name Default="Youtube-DL">Youtube-DL</Name>
+  <Repository>bart39/youtube-dl</Repository>
+  <Registry>https://hub.docker.com/r/bart39/youtube-dl/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/bart39/unraid-youtube-dl/issues</Support>
+  <Overview/>
+  <Category>Downloaders: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://www.youtube.com/favicon.ico</Icon>
+  <ExtraParams/>
+  <DateInstalled>1510443870</DateInstalled>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/persistent</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+	<Volume>
+      <HostDir/>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>PLAYLIST</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>1200</Value>
+      <Name>INTERVAL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>false</Value>
+      <Name>NFO</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="Download Location" Target="/persistent" Default="" Mode="rw" Description="Container Path: /persistent (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config Location" Target="/config" Default="" Mode="rw" Description="Container Path: /config (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>
