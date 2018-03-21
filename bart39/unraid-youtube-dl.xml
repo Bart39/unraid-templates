@@ -32,18 +32,8 @@
   </Data>
   <Environment>
     <Variable>
-      <Value/>
-      <Name>PLAYLIST</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
       <Value>1200</Value>
       <Name>INTERVAL</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>false</Value>
-      <Name>NFO</Name>
       <Mode/>
     </Variable>
   </Environment>
