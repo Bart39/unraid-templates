@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name Default="Youtube-DL">Youtube-DL</Name>
-  <Repository>bart39/youtube-dl</Repository>
-  <Registry>https://hub.docker.com/r/bart39/youtube-dl/</Registry>
+  <Repository>bart39/unraid-youtube-dl</Repository>
+  <Registry>https://hub.docker.com/r/bart39/unraid-youtube-dl/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://github.com/bart39/unraid-youtube-dl/issues</Support>
